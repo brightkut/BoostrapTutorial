@@ -1,0 +1,19 @@
+{
+  "name": "bootstraplearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightkut/BoostrapTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brightkut/BoostrapTutorial/issues"
+  },
+  "homepage": "https://github.com/brightkut/BoostrapTutorial#readme"
+}
