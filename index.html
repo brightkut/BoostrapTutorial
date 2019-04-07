@@ -11,16 +11,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--Use CSS from file-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
     <title>Bootstrap</title>
+    
 
-    <script>
-    
-    function toggleSideBar(){
-      document.getElementById("sidebar").classList.toggle('active');
-      document.getElementById("blog1").style.marginLeft = "250px";
-    }
-    
-    </script>
+   
 
   </head>
   <body>
@@ -33,7 +29,7 @@
        <div class="container col-md-3" >
 
         
-         <button class="btn" onclick="toggleSideBar()"> <i class="fas fa-align-justify" ></i></button>
+         <button class="btn" id="btcl"> <i class="fas fa-align-justify" ></i></button>
           <i class="fab fa-youtube" style="margin-left: 20px"></i>
           <a href="#" >Youtube</a>
        </div>
@@ -80,6 +76,7 @@
           
       
       </div>
+     
 
 
     </nav>
@@ -109,6 +106,7 @@
   
     </div>
     <div class="container" id="blog2"> <h5>Recommend</h5></div>
+    
     <div class="container" id ="blog3" style="background-color:pink">
       <div class="row">
         <div class="col-3 al" style="background-color:blue"  >
@@ -137,7 +135,7 @@
 
 
     </div>
-    <div class="container" id ="blog3" style="background-color:pink">
+    <div class="container" id ="blog4" style="background-color:purple">
         <div class="row">
           <div class="col-3 al" style="background-color:blue"  >
             
@@ -165,6 +163,20 @@
   
   
       </div>
+      <script>
+      
+          $("#btcl").click(function(e){
+           $("#sidebar").toggleClass("toggled");
+           $("#blog1").toggleClass("toggled");
+           $("#blog2").toggleClass("toggled");
+           $("#blog3").toggleClass("toggled");
+           $("#blog4").toggleClass("toggled");
+    
+          });
+        
+        
+    
+        </script>
     
   
   

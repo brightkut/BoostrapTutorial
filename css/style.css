@@ -11,7 +11,8 @@
     left: -200px;
 
 }
-#sidebar.active{
+#sidebar.toggled{
+  
     left: 0px;
 
 }
@@ -33,6 +34,10 @@
     height: 220px;
     margin-top: 1%;
 }
+#blog4{
+    height: 220px;
+    margin-top: 1%;
+}
 .al{
     height: 220px;
 
@@ -45,4 +50,17 @@
     height: 220px;
     width: 100%​;
 }
+#blog1.toggled{
+    margin-left: 250px;
+}
+#blog2.toggled{
+    margin-left: 250px;
+}
+#blog3.toggled{
+    margin-left: 250px;
+}
+#blog4.toggled{
+    margin-left: 250px;
+}
+
 
