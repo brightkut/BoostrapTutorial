@@ -1,0 +1,48 @@
+.navbar{
+    background: whitesmoke !important;
+    margin: 0px;
+}
+
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: green;
+    left: -200px;
+
+}
+#sidebar.active{
+    left: 0px;
+
+}
+#sidebar ul li{
+    list-style: none;
+}
+#blog1{
+    height: 220px;
+
+
+}
+#blog2{
+    
+    margin-top: 1%;
+    
+   
+}
+#blog3{
+    height: 220px;
+    margin-top: 1%;
+}
+.al{
+    height: 220px;
+
+}
+#blo{
+    height: 90%;
+    
+}
+#headblog{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}

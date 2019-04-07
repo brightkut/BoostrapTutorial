@@ -7,14 +7,169 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Use CSS from file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bootstrap</title>
 
-    <title>Hello, world!</title>
+    <script>
+    
+    function toggleSideBar(){
+      document.getElementById("sidebar").classList.toggle('active');
+    }
+    
+    </script>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
 
     
+    <!--navbar-dark is mean font in menu navbar-->
+    <!--bg-dark background of navbar-->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+       <div class="container col-md-3" >
+
+        
+         <button class="btn" onclick="toggleSideBar()"> <i class="fas fa-align-justify" ></i></button>
+          <i class="fab fa-youtube" style="margin-left: 20px"></i>
+          <a href="#" >Youtube</a>
+       </div>
+       <div class="container col-md-6 " >
+          <div class="input-group col-md-10">
+              <input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+                
+              </div>
+          </div>
+      </div>
+     <div class="container col-md-3" >
+      <div class="row">
+        <div class="col-2">
+          <i class="fas fa-video"></i>
+        </div>
+        <div class="col-2">
+          <i class="fas fa-th"></i>
+          </div>
+          <div class="col-2">
+            <i class="fas fa-comment-dots"></i>
+            </div>
+            <div class="col-3">
+              <i class="fas fa-bell"></i>
+              </div>
+              <div class="col-3">
+                <i class="fas fa-user-alt"></i>
+              </div>
+
+
+      </div>
+      
+         
+       </div>
+       
+       
+        
+
+      
+   </div>
+      
+        
+          
+      
+      </div>
+
+
+    </nav>
+
+    <div id ="sidebar">
+      <ul>
+
+        <li>home</li>
+        <li>home</li>
+
+      </ul>
+      <ul>
+
+          <li>home</li>
+          <li>home</li>
+  
+        </ul>
+    </div>
+    <div class="container" id="blog1" style="background-color: aquamarine">
+
+      <div  id="headblog" style="background-color: red">T</div>
+  
+    </div>
+    <div class="container" id="blog2"> <h5>Recommend</h5></div>
+    <div class="container" id ="blog3" style="background-color:pink">
+      <div class="row">
+        <div class="col-3 al" style="background-color:blue"  >
+            <div class="mt-2 ml-2 mr-2 mb-2"id ="blo "style="background-color:aliceblue">sdf</div>
+          
+       
+        </div>
+        <div class="col-3 al " style="background-color:green" >
+            
+        
+          </div>
+          <div class="col-3 al" style="background-color:yellow">
+              
+      
+            </div>
+            <div class="col-3 al" style="background-color:orange" >
+            
+      
+              </div>
+              
+
+
+
+      </div>
+
+
+
+    </div>
+    <div class="container" id ="blog3" style="background-color:pink">
+        <div class="row">
+          <div class="col-3 al" style="background-color:blue"  >
+            
+            
+         
+          </div>
+          <div class="col-3 al " style="background-color:green" >
+              
+          
+            </div>
+            <div class="col-3 al" style="background-color:yellow">
+                
+        
+              </div>
+              <div class="col-3 al" style="background-color:orange" >
+              
+        
+                </div>
+                
+  
+  
+  
+        </div>
+  
+  
+  
+      </div>
+    
+  
+  
+  
+   
+ 
+
+          
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
